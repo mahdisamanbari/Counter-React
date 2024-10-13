@@ -6,10 +6,18 @@
 body {
   background: #333;
   color: hsl(200, 100%, 90%);
-  max-width: 400px;
-  padding: 1rem;
-  margin: 0 auto;
 }
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.counter-text{
+ margin-left: 50px;
+ font-size: 50px;
+}
+
 
 
 
@@ -17,7 +25,6 @@ body {
   background: hsl(200, 100%, 50%, 0.1);
   border: 1px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 50%);
-  padding: 0.25em 0.5em;
   border-radius: 0.25em;
   cursor: pointer;
   outline: none;
